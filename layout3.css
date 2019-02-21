@@ -1,0 +1,58 @@
+section {
+    padding: 1em;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    order: 1;
+    background-color: purple;
+}
+
+header {
+    background-color: green;
+}
+
+#one {
+    background-color: yellow;
+}
+
+#two {
+    background-color: rgb(255, 0, 179);
+}
+
+#nav-one, #nav-two{
+    background-color: cyan;
+}
+
+#nav-articles{
+    background-color: red;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.pageContent {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}

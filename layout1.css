@@ -1,0 +1,30 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: green;
+}
+
+#one {
+    background-color: yellow;
+}
+
+#two {
+    background-color: rgb(255, 0, 179);
+}
+
+footer {
+    order: 1;
+    background-color: purple;
+}
+
+#nav-one, #nav-two{
+    background-color: cyan;
+}
+
+#nav-articles{
+    background-color: red;
+}

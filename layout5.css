@@ -1,0 +1,73 @@
+section {
+    padding: 1em;
+}
+
+ #nav-articles{
+    position: sticky;
+    top: 0;
+    background-color: red;
+    z-index: 1;
+}
+
+#nav-one, #nav-two{
+    position: sticky;
+    top: 4em;
+    background-color: cyan;
+}
+
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    order: 1;
+    background-color: purple;
+}
+
+header {
+    background-color: green;
+}
+
+#one {
+    background-color: yellow;
+}
+
+#two {
+    background-color: rgb(255, 0, 179);
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.pageContent {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraphs {
+    display: flex;
+}
+
+ul, ol {
+    display: flex;
+    justify-content: space-around;
+}
